@@ -25,10 +25,7 @@
         background-size: contain;
     }
     .banner-img{
-        margin: 20px;
         width: 100%;
-        height: 100%;
-        object-fit: cover;
     }
     .banner-list{
         margin-left: 80px;
@@ -37,12 +34,9 @@
         margin-left: 80px;
     }
     .gamer-container{
+        width: 100%;
         flex-direction: column;
         padding: 0;
-        object-fit: cover;
-    }
-    .gamer-img{
-        width: 100%;
     }
     .gamer-text{
         text-align: center;
@@ -52,7 +46,18 @@
         flex-direction: column;
     }
     .online-container{
+        width: 100%;
         margin: 30px;
+        position: relative;
+    }
+    .online-container .online-img{
+        width: 100%;
+    }
+    .online-container .online-badge{
+        width: 30%;
+        position: absolute;
+        top: 80px;
+        left: 100px;
     }
     .online-section{
         width: 100%;
@@ -112,5 +117,103 @@
     }
     .copyright-description{
         margin: 10px;
+    }
+}
+
+/* tablet device */
+
+@media screen and (min-width:425px) and (max-width:768px){
+    .nav-container{
+        padding: 10px 70px;
+        flex-direction: column;
+    }
+    .logo-container{
+        width: 100%;
+        padding: 0 150px;
+    }
+    .nav-items-container{
+        width: 100%;
+        padding: 0px 10px;
+        gap: 10px;
+    }
+    .banner-container{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 40px;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-text{
+        text-align: center;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card-container img{
+        margin-left: 150px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .card-container .card-img{
+        margin-left: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .online-container{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 5px;
+    }
+    .online-text{
+        margin-top: 0;
+    }
+    .career-container{
+        flex-direction: column;
+    }
+    .career-text{
+        margin-left: 40px;
+    }
+    .career-img{
+        margin-left: 55px;
+    }
+    .five-buttons{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        margin-left: 70px;
+    }
+    .four-buttons{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0;
+        margin-left: 95px;
+        column-gap: 70px;
+    }
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-container{
+        margin: 0;
+    }
+    .logo-container{
+        padding-left: 230px;
+    }
+    .footer-list{
+        margin: 0 70px;
+        gap: 30px;
+    }
+    .icon-container{
+        margin: 30px 170px;
+    }
+    .policy-container{
+        margin: 0 70px;
+        gap: 40px;
+    }
+    .copyright-description{
+        margin: 30px 0;
     }
 }
