@@ -62,7 +62,7 @@ header{
 /* banner styles */
 
 .banner-container{
-    margin: 0;
+    margin: 0 auto;
     max-width: 1920px;
     background-color: #FFFFFF; 
     display: flex;
@@ -79,7 +79,7 @@ header{
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 10px;
 }
 .banner-title .goat-section{
@@ -91,15 +91,17 @@ header{
     font-size: 3rem;
     font-weight: 800;
 }
-.banner-text > li{
+.banner-list{
     font-size: 1rem;
-    color: #534C64
-    text-align: justify;
+    color: #534C64;
     margin-top: 20px;
     margin-left: 180px;
 }
+.banner-list > li{
+    margin-top: 10px;
+}
 .banner-btn{
-    margin: 20px 150px;
+    margin: 40px 150px;
     gap: 24px;
     display: flex;
 }
@@ -126,8 +128,8 @@ header{
     padding: 10px 40px;
 }
 .banner-img{
-    width: 50%;
-    height: 100%;
+    max-width:600px;
+    height: 450px;
     margin-top: 19px;
 }
 
@@ -140,9 +142,6 @@ header{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 55px 0px 55px 100px;
     gap: 52px;
-}
-.gamer-img{
-    width: 100%;
 }
 .gamer-text{
     text-align: right;
@@ -168,11 +167,14 @@ header{
     font-size: 2rem;
     color: #534C64;
 }
+.gamer-img{
+    max-width: 600px;
+}
 
 /* card styles */
 
 .videos-container{
-    max-width: 1920px;
+    width: 100%;
     padding: 48px 40px 0;
 }
 .video-title{
@@ -194,7 +196,7 @@ header{
     text-align: center;
 }
 .card-container{
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
     display: flex;
     gap: 24px;
@@ -211,14 +213,13 @@ header{
     color: #FF42A5;
 }
 .card-container img .card-img{
-    width: 100%;
-    height: 100%;
+    width: 80% ;
 }
 
 /* online section styles */
 
 .online-container{
-    max-width: 100%;
+    max-width: 1920px;
     display: flex;
     background-color: #FFFFFF;
     margin: 100px; 
@@ -231,6 +232,7 @@ header{
     padding-bottom: 0;
 }
 .online-img{
+    max-width: 600px;
     margin-top: 0;
     margin-left: 0;
 }
@@ -289,14 +291,14 @@ header{
     color: #FFF;
     font-size: 1.125rem;
     font-weight: 400;
-    gap: 50px;
+    gap: 30px;
     margin-top: 32px;
 }
 .white-btn{
     border-radius: 3rem;
     background: #FFF;
     padding: 21px 40px;
-    margin-top: 35px;
+    margin-top: 20px;
     border: 0;
     color: #FF42A5;
 }
@@ -309,21 +311,17 @@ header{
 
 .button-container{
     max-width: 1920px;
-    padding: 100px;
-    justify-content: space-evenly;
     align-items: center;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
 }
 .five-buttons{
-    gap: 37px;
+    gap: 20px;
     display: flex;
-    padding: 30px 50px;
+    padding: 30px;
 }
 .four-buttons{
-    gap: 37px;
+    gap: 30px;
     display: flex;
-    padding: 0 180px;
+    padding: 0 180px 30px;
 }
 
 .five-buttons .button, .button3, .four-buttons .button{

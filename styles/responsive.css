@@ -1,0 +1,116 @@
+@media screen and (max-width:425px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        width: 100%;
+    }
+    .nav-items-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .nav-items-container .follow-btn{
+        padding: 0;
+        text-align: center;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 10px;
+    }
+    .banner-text{
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+    }
+    .banner-img{
+        margin: 20px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .banner-list{
+        margin-left: 80px;
+    }
+    .banner-btn{
+        margin-left: 80px;
+    }
+    .gamer-container{
+        flex-direction: column;
+        padding: 0;
+        object-fit: cover;
+    }
+    .gamer-img{
+        width: 100%;
+    }
+    .gamer-text{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .card-container, .online-container{
+        flex-direction: column;
+    }
+    .online-container{
+        margin: 30px;
+    }
+    .online-section{
+        width: 100%;
+        object-fit: cover;
+    }
+    .career-container{
+        flex-direction: column;
+    }
+    .career-text{
+        margin-right: 50px;
+    }
+    .five-buttons{
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        margin-left: 60px;
+    }
+    .four-buttons{
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        margin-left: 60px;
+    }
+    .button-container{
+        flex-direction: column;
+        padding: 5px 10px;
+
+    }
+    footer{
+        width:auto;
+        height: 100%;
+    }
+    .footer-container{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .logo-container img{
+        margin-top: 7px;
+    }
+    .logo-container .footer-container p{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .footer-list{
+        gap: 5px;
+        margin: 5px;
+        justify-content: center;
+    }
+    .icon-container{
+        gap: 15px;
+        margin: 30px 140px;
+    }
+    .policy-container{
+        gap: 5px;
+        margin: 5px;
+    }
+    .copyright-description{
+        margin: 10px;
+    }
+}
